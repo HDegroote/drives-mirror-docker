@@ -1,0 +1,29 @@
+{
+  "name": "drives-mirror-docker",
+  "version": "0.0.0",
+  "description": "Docker for running drives' mirror command with --live option",
+  "main": "run.sh",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HDegroote/drives-mirror-docker.git"
+  },
+  "keywords": [
+    "drives",
+    "hyperdrive",
+    "live",
+    "sync",
+    "folder"
+  ],
+  "author": "H. Degroote",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/HDegroote/drives-mirror-docker/issues"
+  },
+  "homepage": "https://github.com/HDegroote/drives-mirror-docker#readme",
+  "dependencies": {
+    "drives": "^2.9.1"
+  }
+}
